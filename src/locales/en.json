@@ -13,8 +13,8 @@
   },
   "home": {
     "meta": {
-      "title": "My Seafood Stand Wiki — Codes, Recipes, Upgrades & Guides",
-      "description": "Complete My Seafood Stand guide on Roblox with active working codes, all fish & recipes, best upgrades tier list, and fast cash tips."
+      "title": "Ebbtide Wiki — Beginner Guide, Units, Base Building & Release Info",
+      "description": "Explore Ebbtide guides covering squad combat, military units, base building, horde defense, the Los Angeles campaign, and release details."
     },
     "hero": {
       "eyebrow": "Zombie Survival Real-Time Strategy",
@@ -38,27 +38,27 @@
     },
     "start": {
       "eyebrow": "Start Here",
-      "title": "Your My Seafood Stand Journey",
+      "title": "Your Ebbtide Journey",
       "cards": [
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the two-view command loop, secure your first foothold, and survive the opening hordes in Los Angeles."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Units & Vehicles",
+          "description": "Understand how infantry, M2 Abrams tanks, AH-6M Little Bird helicopters, and artillery support work together."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Base Building",
+          "description": "Build layered defenses, forward operating bases, rooftop firing positions, and a fallback line before the first major wave."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in My Seafood Stand."
+          "title": "Combat Basics",
+          "description": "Read horde pressure, time artillery on approach routes, and keep mobile reserves ready when a defensive line bends."
         }
       ]
     },
@@ -66,237 +66,341 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Units & Vehicles",
+        "Base Defense",
+        "Combat Basics"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Learn the survivor-and-commander loop, opening priorities, and common mistakes.",
+          "href": "/guide/ebbtide-beginner-guide"
         },
         {
-          "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "badge": "Core",
+          "title": "Gameplay Guide",
+          "description": "See how squad commands, base building, armor, air support, and artillery fit together.",
+          "href": "/guide/ebbtide-gameplay-guide"
         },
         {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "badge": "Roster",
+          "title": "Units & Vehicles",
+          "description": "Review the documented roles of infantry, Abrams tanks, Little Bird helicopters, and fire support.",
+          "href": "/units/ebbtide-military-units"
         },
         {
-          "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "badge": "Defense",
+          "title": "Base Building",
+          "description": "Plan defensive depth, forward operating bases, rooftops, and retreat routes.",
+          "href": "/mechanics/ebbtide-base-building"
         },
         {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "badge": "Combat",
+          "title": "Combat Strategy",
+          "description": "Coordinate production, force composition, evacuation corridors, and fire support.",
+          "href": "/combat/ebbtide-combat-guide"
         },
         {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
-        },
-        {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
-        },
-        {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
-        },
-        {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "badge": "News",
+          "title": "Announcement Trailer",
+          "description": "Break down the reveal footage, confirmed game facts, and ProjectAlive's campaign pitch.",
+          "href": "/community/ebbtide-announcement-trailer"
         }
       ]
     },
     "aboutGame": {
-      "title": "What is My Seafood Stand?",
+      "title": "What is Ebbtide?",
       "paragraphs": [
-        "My Seafood Stand is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Ebbtide is a single-player zombie survival real-time strategy game from ProjectAlive. Set in a collapsing Los Angeles, it puts you in command of the last carrier task force and asks you to rescue survivors while holding ground against massive zombie hordes.",
+        "You can fight directly as a survivor on the ground, then pull back to an overhead command view to direct infantry squads, M2 Abrams tanks, AH-6M Little Bird helicopters, and artillery. Forward operating bases, rooftop defenses, evacuation routes, and layered fallback positions turn each operation into a contest of positioning and supply."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
+          "value": "ProjectAlive"
         },
         {
-          "label": "Platform",
-          "value": "Roblox"
+          "label": "Publisher",
+          "value": "ProjectAlive"
+        },
+        {
+          "label": "Platforms",
+          "value": "PC & Mac"
+        },
+        {
+          "label": "Release",
+          "value": "Coming Soon"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Zombie Survival RTS"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Mode",
+          "value": "Single-player"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Languages",
+          "value": "11"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
-        },
-        {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Setting",
+          "value": "Los Angeles"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
-      "title": "Explore My Seafood Stand Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "title": "Explore the Ebbtide Wiki",
+      "description": "Plan your first operation and follow the campaign with guides to squad combat, military units, base defense, horde pressure, and release information.",
       "modules": [
         {
           "order": 1,
-          "name": "My Seafood Stand Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/my-seafood-stand-codes",
-          "displayType": "code-box",
+          "name": "Ebbtide Beginner Guide",
+          "description": "Learn the core loop: command a carrier task force, rescue survivors, manage military units, and hold Los Angeles against large zombie hordes.",
+          "href": "/guide/ebbtide-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Learn the two-view loop: fight as a survivor, then pull back to command squads."
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Secure a production foothold and a small flexible squad before expanding."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Place a forward operating base with room to expand and a clear retreat route."
+            },
+            {
+              "label": "4",
+              "detail": "Build defenses in layers and hold at least one rooftop firing position."
+            },
+            {
+              "label": "5",
+              "detail": "Treat hordes as sustained pressure: rotate damaged units and bank repair resources."
+            },
+            {
+              "label": "6",
+              "detail": "Revisit your build order after each engagement instead of repeating a failed layout."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/my-seafood-stand-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Ebbtide Gameplay and Features",
+          "description": "See how Ebbtide combines direct survivor combat, real-time squad command, base building, armored vehicles, air support, and artillery.",
+          "href": "/guide/ebbtide-gameplay-guide",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "Two Views",
+              "detail": "Switch between direct survivor control and an overhead command view to read and shape the battle."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Squads",
+              "detail": "Order infantry groups to screen armor, hold ground, and cover exposed flanks."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "FOBs",
+              "detail": "Forward operating bases shorten reinforcement routes and extend pressure into contested blocks."
+            },
+            {
+              "label": "Armor",
+              "detail": "M2 Abrams tanks anchor lanes and absorb horde pressure when infantry screen their hulls."
+            },
+            {
+              "label": "Air",
+              "detail": "AH-6M Little Bird helicopters handle fast response, extraction, and short precision sorties."
+            },
+            {
+              "label": "Artillery",
+              "detail": "Called-in strikes break up dense clusters before they reach your defensive line."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/my-seafood-stand-tier-list",
+          "name": "Ebbtide Units and Military Vehicles",
+          "description": "Compare the documented battlefield roles of artillery, M2 Abrams tanks, AH-6M Little Bird helicopters, and forward operating bases.",
+          "href": "/units/ebbtide-military-units",
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "S",
+              "detail": "Artillery: break up dense horde clusters before contact and fire at density peaks."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "A",
+              "detail": "M2 Abrams: anchor a defensive lane, absorb pressure, and rotate damaged armor for repair."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "B",
+              "detail": "AH-6M Little Bird: strike fast, break contact early, and pair with ground eyes."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "C",
+              "detail": "Forward Base: extend reach and shorten reinforcement distance once the first line holds."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/my-seafood-stand-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Ebbtide Combat Strategy Guide",
+          "description": "Coordinate production, force composition, evacuation corridors, and fire support while defending against escalating zombie pressure.",
+          "href": "/combat/ebbtide-combat-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "1",
+              "detail": "Secure a production foothold and a small flexible squad before building wide."
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "2",
+              "detail": "Extend map control with a forward operating base and scouted approach routes."
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "3",
+              "detail": "Build layered defenses and repair capacity before the first large wave."
+            },
+            {
+              "label": "4",
+              "detail": "Keep mobile reserves ready and fire artillery at density peaks on approach."
+            },
+            {
+              "label": "5",
+              "detail": "Protect evacuation corridors and hold at least one elevated firing position."
+            },
+            {
+              "label": "6",
+              "detail": "Fall back, consolidate, and counterattack instead of feeding units into a collapsing lane."
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/my-seafood-stand-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Ebbtide Base Building and Defense",
+          "description": "Plan defensive depth, forward operating bases, rooftop firing positions, vehicle staging areas, and fallback lines against sustained attacks.",
+          "href": "/mechanics/ebbtide-base-building",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Perimeter",
+              "detail": "Turn open ground into a kill zone with overlapping defensive arcs."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "FOB",
+              "detail": "Place forward operating bases where reinforcements can arrive and units can retreat."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Rooftops",
+              "detail": "Use elevated firing positions to multiply effective force and cover street approaches."
+            },
+            {
+              "label": "Staging",
+              "detail": "Keep armor repaired and ready at a vehicle staging area near the line."
+            },
+            {
+              "label": "Fallback",
+              "detail": "Build a second line so one breach does not become a total collapse."
+            },
+            {
+              "label": "Layers",
+              "detail": "Build in depth rather than a single wall that fails at one point."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/my-seafood-stand-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Ebbtide Global Campaign and Progression",
+          "description": "Follow the campaign from the Los Angeles beachhead toward wider operations while rescuing survivors and sustaining your task force.",
+          "href": "/mechanics/ebbtide-rts-gameplay",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "1",
+              "detail": "Stabilize the Los Angeles beachhead and establish a production foothold."
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "2",
+              "detail": "Rescue and escort civilians while keeping evacuation corridors open."
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "3",
+              "detail": "Secure supply routes and forward operating bases to sustain each push."
+            },
+            {
+              "label": "4",
+              "detail": "Expand from city operations toward support for other regions."
+            },
+            {
+              "label": "5",
+              "detail": "Carry the same combined-arms discipline into larger campaign operations."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Ebbtide Release Date and Platforms",
+          "description": "Track the confirmed launch status, supported operating systems, game mode, language support, and official store details.",
+          "href": "/community/ebbtide-announcement-trailer",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Release",
+              "detail": "Coming Soon — no launch date or price has been announced."
+            },
+            {
+              "label": "Platforms",
+              "detail": "Windows and macOS."
+            },
+            {
+              "label": "Mode",
+              "detail": "Single-player with Family Sharing enabled."
+            },
+            {
+              "label": "Languages",
+              "detail": "11 interface and subtitle languages, including English, German, Spanish, and Japanese."
+            },
+            {
+              "label": "Developer",
+              "detail": "ProjectAlive, self-published."
+            },
+            {
+              "label": "Input",
+              "detail": "Xbox controllers are supported, and the game is playable without quick-time events."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Ebbtide News and Updates",
+          "description": "Follow official announcements, development updates, gameplay showcases, and trailer releases from ProjectAlive and the Ebbtide community.",
+          "href": "/community/ebbtide-announcement-trailer",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Trailer",
+              "detail": "The announcement trailer shows a city-scale operations map flowing into street combat without a loading screen."
+            },
+            {
+              "label": "Steam",
+              "detail": "The Steam page lists ProjectAlive as developer and publisher with a coming-soon release status."
+            },
+            {
+              "label": "Discord",
+              "detail": "The official Ebbtide Discord is the community hub for updates and development discussion."
+            },
+            {
+              "label": "YouTube",
+              "detail": "The official Ebbtide Game channel hosts trailers and gameplay showcases."
+            },
+            {
+              "label": "X",
+              "detail": "Follow @ProjectAliveDev for announcements from the development team."
             }
           ]
         }
@@ -304,27 +408,31 @@
     },
     "faq": {
       "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about My Seafood Stand.",
+      "description": "Quick answers about Ebbtide, its release status, platforms, combat loop, units, and beginner priorities.",
       "items": [
         {
-          "question": "What is My Seafood Stand?",
-          "answer": "My Seafood Stand is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "question": "What is Ebbtide?",
+          "answer": "Ebbtide is a single-player zombie survival real-time strategy game from ProjectAlive. It is set in a collapsing Los Angeles, where you command the last carrier task force, rescue survivors, and defend against massive zombie hordes."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "When does Ebbtide release?",
+          "answer": "Ebbtide is listed as Coming Soon on Steam. ProjectAlive has not announced a launch date or price."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "Which platforms will Ebbtide support?",
+          "answer": "Ebbtide is listed for Windows and macOS. The Steam page also confirms single-player support and Family Sharing."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "What is the core Ebbtide gameplay loop?",
+          "answer": "You fight as a survivor on the ground, switch to an overhead command view to direct squads and fire support, and build forward operating bases between horde attacks."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "Which Ebbtide units are confirmed?",
+          "answer": "Official footage and store details have shown infantry, M2 Abrams tanks, AH-6M Little Bird helicopters, forward operating bases, and artillery."
+        },
+        {
+          "question": "How should beginners start Ebbtide?",
+          "answer": "Start with the Ebbtide Beginner Guide: secure production, keep one flexible squad, build defenses in layers, and avoid overextending before the first major horde."
         }
       ]
     },
