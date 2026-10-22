@@ -9,7 +9,14 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "mechanics": "Mechanics",
+    "combat": "Combat",
+    "units": "Units",
+    "base": "Base",
+    "maps": "Maps",
+    "community": "Community"
   },
   "home": {
     "meta": {
@@ -443,7 +450,34 @@
       "secondary": "View on Steam"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Ebbtide Guides",
+    "overviewDescription": "Ebbtide beginner and gameplay guides covering controls, squad combat, base building, survival, and practical tips for the Los Angeles campaign."
+  },
+  "mechanics": {
+    "overviewTitle": "Ebbtide Mechanics",
+    "overviewDescription": "Ebbtide mechanics guides covering RTS command, horde defense, base building, resource management, troop transport, and zombie survival systems."
+  },
+  "combat": {
+    "overviewTitle": "Ebbtide Combat",
+    "overviewDescription": "Ebbtide combat guides covering infantry tactics, weapons and artillery, helicopter operations, armored vehicles, and strike support."
+  },
+  "units": {
+    "overviewTitle": "Ebbtide Units",
+    "overviewDescription": "Ebbtide unit guides covering military infantry, vehicles, transport helicopters, attack helicopters, and combined-arms deployment."
+  },
+  "base": {
+    "overviewTitle": "Ebbtide Base",
+    "overviewDescription": "Ebbtide base guides covering forward operating bases, FOB supplies, defensive layouts, and building destruction."
+  },
+  "maps": {
+    "overviewTitle": "Ebbtide Maps",
+    "overviewDescription": "Ebbtide map guides covering the Los Angeles operations map, battlefield layouts, and tactical routes."
+  },
+  "community": {
+    "overviewTitle": "Ebbtide Community",
+    "overviewDescription": "Ebbtide community coverage including Reddit and Steam discussions, release date news, and official announcement trailers."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -475,9 +509,10 @@
     "officialYoutube": "Ebbtide YouTube",
     "vvBuilder": "ProjectAlive on X",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
+    "mechanicsGuides": "Mechanics Guides",
+    "combatGuides": "Combat Guides",
+    "unitsGuides": "Unit Guides",
+    "baseGuides": "Base Guides",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }

@@ -1,0 +1,109 @@
+export const metadata = {
+  title: "Guía de transporte de tropas de Ebbtide: helicópteros, formaciones y despliegue de escuadrones",
+  description: "Domina el transporte de tropas de Ebbtide: formaciones de helicópteros, espaciado, rápel, estacionamiento en cubierta y métodos de entrega que mantienen vivos a tus escuadrones en Los Ángeles.",
+  category: "mechanics",
+  date: "2026-10-22",
+}
+
+A las hordas de zombis les da igual lo buena que sea tu infantería si el escuadrón nunca llega a la azotea. En Ebbtide, la diferencia entre un avance limpio y un equipo de fuego aniquilado suele reducirse a una sola cosa: el transporte de tropas de Ebbtide. Si aciertas con el despliegue —el fuselaje adecuado, el espaciado adecuado, el punto de descenso adecuado—, tu juego terrestre se abre por completo; si fallas, estás metiendo escuadrones en una picadora de carne, un helicóptero a la vez.
+
+Esta guía desglosa lo que realmente sabemos sobre el transporte de tropas de Ebbtide a partir de material de los desarrolladores e informes de la comunidad, y luego lo convierte en hábitos prácticos que puedes aplicar en el momento en que cargas en Los Ángeles.
+
+## Cómo encaja el transporte de tropas de Ebbtide en el bucle RTS
+
+Ebbtide es un RTS de supervivencia zombi 3D con estilo propio que está en desarrollo, y se juega en dos escalas conectadas. En el mapa de operaciones diriges fuerzas por todo Los Ángeles; una vez que te comprometes, la cámara se acerca al campo de batalla, donde puedes comandar tropas directamente o tomar el control de una unidad tú mismo. El transporte de tropas de Ebbtide es el puente entre esas dos capas: es la forma en que una decisión tomada en un mapa se convierte en botas sobre una calle.
+
+Ese diseño de dos escalas es la razón por la que el despliegue aéreo importa más aquí que en un RTS típico. No te limitas a generar unidades en un edificio: estás trazando rutas de aeronaves por una ciudad, eligiendo dónde aterrizan y decidiendo cuánta parte de tu fuerza llega a la vez. Los informes de la comunidad señalan de forma constante la misma lección: los jugadores que planifican la inserción antes de que empiecen los disparos pierden muchos menos escuadrones que quienes improvisan aeronaves a mitad del combate.
+
+También hay una cadena logística bajo el combate. Las bases de operaciones avanzadas (FOB) hay que construirlas y luego abastecerlas, y los propios títulos de las actualizaciones del desarrollador lo dejan claro sin rodeos: una FOB no se reabastece sola. El transporte de tropas de Ebbtide es la respuesta a ese problema: mueve personas y carga desde los barcos y las zonas de retaguardia hasta los lugares donde la línea realmente necesita mantenerse.
+
+### Modo comandante frente a control directo
+
+Ambos enfoques funcionan, pero resuelven problemas distintos. En el modo comandante puedes gestionar varios despliegues a la vez: una formación de transporte en camino, una segunda oleada preparándose, una misión de reabastecimiento en cola detrás de ellos. Tomar el control directo es mejor para un único lanzamiento de precisión o para escoltar un transporte frágil a través de un corredor caliente. El hábito práctico es mantenerte en modo comandante hasta que la primera oleada esté comprometida, y luego intervenir solo cuando una aeronave concreta necesite supervisión.
+
+## La flota de transporte: adaptar el fuselaje a la misión
+
+El material de desarrollo ha mostrado un conjunto cada vez más amplio de fuselajes, y cada uno responde a una pregunta de transporte diferente. La tabla siguiente resume los roles tal como han aparecido en las actualizaciones públicas; toma los detalles concretos como "experiencia de jugador" hasta que el juego se lance.
+
+| Activo | Rol en el despliegue | Qué transporta | Mejor uso |
+|---|---|---|---|
+| AH-6M Little Bird | Escolta armada y reconocimiento | Ametralladoras y cohetes, tripulación reducida | Limpiar una zona de aterrizaje antes de que llegue el transporte |
+| Grupos de helicópteros de transporte | Despliegue principal de escuadrones | Escuadrones de infantería | Soltar varios escuadrones a lo largo de un frente amplio |
+| Chinook | Carga pesada | Escuadrones y Humvees | Mover vehículos junto con su apoyo de infantería |
+| Cubierta de vuelo de destructor | Estacionamiento y recogida | Escuadrones y carga eslingada | Rotaciones barco-tierra |
+| Base de operaciones avanzada | Centro de reabastecimiento en tierra | Suministros | Sostener un avance tras el descenso inicial |
+
+El Little Bird es el que la gente malinterpreta. Se le ha visto llevando ametralladoras y cohetes contra la horda, lo que lo convierte en un activo de escolta, no en un autobús. Enviarlo solo a mover tropas desperdicia su valor real: es la aeronave que hace que la zona de aterrizaje sea sobrevivible para las aeronaves que de verdad llevan a tu infantería.
+
+El Chinook cambia las cuentas por completo. Cuando un helicóptero de carga pesada puede llevar tanto escuadrones como Humvees, el transporte de tropas de Ebbtide deja de ser un problema puramente de infantería y pasa a ser uno blindado. Soltar un vehículo y sus desmontados juntos significa que el escuadrón aterriza con potencia de fuego móvil en lugar de caminar al descubierto.
+
+Si quieres la referencia oficial en lugar del análisis de los devlogs, [busca Ebbtide en Steam](https://store.steampowered.com/search/?term=Ebbtide) para consultar la página de la tienda y el estado en la lista de deseos directamente.
+
+## Formaciones, espaciado y rotor wash
+
+Las actualizaciones recientes de los desarrolladores se han centrado mucho en el movimiento de grupos de helicópteros: formaciones distintas, espaciado ajustable entre aeronaves y formaciones de transporte más grandes cruzando Los Ángeles antes de soltar escuadrones en tierra. Eso es un cambio mecánico importante. Significa que el transporte de tropas de Ebbtide no es un solo clic que teletransporta un escuadrón: es un pequeño problema de gestión de formaciones cada vez que vuelas.
+
+El espaciado es el ajuste que decidirá la mayoría de tus descensos. Un espaciado cerrado concentra tu fuerza rápidamente, que es justo lo que quieres cuando una FOB está a punto de ser desbordada. Un espaciado amplio dispersa los tiempos de llegada y reduce la probabilidad de que una sola ráfaga de fuego alcance a tres aeronaves a la vez, pero también significa que tus escuadrones llegan a cuentagotas en lugar de hacerlo como un puño.
+
+| Situación | Enfoque de espaciado | Contrapartida |
+|---|---|---|
+| Azotea o zona de aterrizaje en calle disputada | Espaciado amplio, llegada escalonada | Más lento para concentrarse, muchas menos bajas por fuego concentrado |
+| Refuerzo de emergencia de una FOB | Formación cerrada | Concentración rápida, arriesgado si el corredor sigue caliente |
+| Cruce de manzanas urbanas abiertas | Formación dispersa | Más difícil de escoltar, pero una sola emboscada no puede atrapar a todos |
+| Carga eslingada | Espaciado amplio con escolta | Menos caudal, más seguro para la misión de carga |
+
+El rotor wash es el otro detalle que merece atención. El material de desarrollo ha destacado los efectos de rotor wash junto al transporte de tropas y el rápel, y aunque esos efectos son primero visuales, también son una señal de sincronización. Un helicóptero que todavía se está asentando es un helicóptero que aún no está soltando nada. Aprender a leer la secuencia —aproximación, hover, wash, liberación— te ayuda a sincronizar el avance terrestre en lugar de adivinar.
+
+## Logística barco-tierra y rápel
+
+La capa naval es donde el transporte de tropas de Ebbtide se vuelve realmente interesante. La muestra del destructor enseña a la tripulación de cubierta, un sistema de armas de proximidad y helicópteros aterrizando en la cubierta de vuelo de popa, recogiendo escuadrones y despegando de nuevo. Una aeronave también lleva carga eslingada debajo. Las operaciones de portaaviones van más lejos, con pilotos subiendo a los cazas, lanzamientos, aterrizajes en cubierta, rodaje, estacionamiento y pilotos bajando después.
+
+Lo que eso significa para un jugador es un ciclo de rotación completo en lugar de un viaje de ida. Las cubiertas de los barcos actúan como puntos de estacionamiento: aterrizar, cargar, lanzar, entregar, volver. Cada segundo extra en cubierta es un segundo en el que tus escuadrones no están en el objetivo, así que los jugadores que interioricen el ciclo pronto simplemente superarán en ritmo a todos los demás.
+
+| Método de entrega | Velocidad | Exposición | Mejor para |
+|---|---|---|---|
+| Aterrizar y desembarcar | Moderada | Alta: la aeronave está inmóvil | Zonas de aterrizaje aseguradas, refuerzo de FOB |
+| Rápel desde hover | Rápida | Moderada: no hace falta tocar tierra | Azoteas y huecos urbanos estrechos |
+| Carga eslingada | Lenta | Baja para las tropas, alta para la carga | Suministros y equipo sin un aterrizaje completo |
+| Transferencia en cubierta | La más lenta | Muy baja | Rotar escuadrones entre barco y costa |
+
+El rápel merece una nota propia porque responde directamente al diseño de niveles de Ebbtide. El mensaje del desarrollador ha sido coherente en que las azoteas no son seguras: la horda también llega allí arriba. El rápel sigue siendo mejor que aterrizar cuando la calle está bloqueada o la azotea es la única superficie plana, pero coloca a las tropas en un espacio donde pueden quedar rodeadas. Trata la inserción por rápel como una forma de reclamar altura rápido, no como una forma de evitar un combate.
+
+## Lista de comprobación práctica: mejores despliegues de transporte de tropas de Ebbtide
+
+La teoría solo sirve si cambia lo que haces en los dos primeros minutos. Usa esta lista como rutina previa al despegue.
+
+| Paso | Acción | Por qué importa |
+|---|---|---|
+| 1 | Elige la zona de aterrizaje antes de despegar | Las aeronaves que dan vueltas buscando un sitio son aeronaves a las que disparan |
+| 2 | Envía primero la escolta | Los helicópteros armados despejan un corredor; los transportes no deberían ser lo primero que sobrevuele el objetivo |
+| 3 | Ajusta el espaciado al nivel de amenaza | Cerrado para emergencias, amplio para espacio aéreo disputado |
+| 4 | Aterriza el vehículo y la infantería juntos | Las cargas de Chinook mantienen a los escuadrones móviles al llegar |
+| 5 | Pon en cola el reabastecimiento antes de que aterrice el primer escuadrón | Una FOB sin suministros es un edificio, no una base |
+| 6 | Mantén planificada una pierna de vuelta | Las rotaciones en cubierta necesitan un carril de regreso despejado |
+
+Algunos hábitos que merece la pena construir sobre esa lista:
+
+- **Nunca vueles un transporte lleno hacia una manzana sin explorar.** Envía primero algo prescindible o algo armado.
+- **Escalona tus descensos entre dos o tres zonas de aterrizaje** para que un mal aterrizaje no te cueste la oleada entera.
+- **Vigila el espaciado cuando la horda es densa en el suelo.** Las formaciones amplias compran tiempo, y el tiempo es el recurso que el transporte de tropas de Ebbtide realmente gasta.
+- **Usa el mapa de operaciones para planificar, no para reaccionar.** Comprometer aeronaves desde la capa del mapa antes de que empiece el combate mantiene la capa del campo de batalla tranquila.
+- **Practica el rápel desde pronto.** Es la habilidad que convierte una calle bloqueada en un problema inexistente.
+
+Los informes de la comunidad también señalan un error habitual de principiante: tratar los transportes como desechables. Perder un helicóptero suele costar más que perder el escuadrón que lleva dentro, porque el fuselaje es lo que te permite intentarlo otra vez. Si un descenso pinta mal, aborta y vuelve a aproximarte: el transporte de tropas de Ebbtide recompensa la paciencia mucho más que la velocidad.
+
+Para el flujo en bruto de clips de los desarrolladores, notas de parche y tráilers que hay detrás de estas observaciones, el [feed de devlogs de Ebbtide en Patchwatch](https://patchwatch.live/g/ebbtide) recopila las actualizaciones en un solo lugar y vale la pena seguirlo si quieres ver cómo evolucionan en tiempo real mecánicas como el espaciado y el rotor wash.
+
+## Preguntas frecuentes
+
+**¿Qué es el transporte de tropas de Ebbtide?**
+Es el conjunto de mecánicas que mueven infantería y carga por el campo de batalla: formaciones de helicópteros con espaciado ajustable, aterrizajes, rápel, carga eslingada y estacionamiento en cubiertas de barco. En la práctica, el transporte de tropas de Ebbtide es el sistema que conecta el mapa de operaciones de Los Ángeles con los combates sobre el terreno.
+
+**¿Pueden los helicópteros llevar vehículos en Ebbtide?**
+Sí, al menos en parte. El material de los desarrolladores muestra al Chinook llevando tanto escuadrones como Humvees, lo que hace posibles los descensos combinados de vehículo e infantería. Otros fuselajes parecen centrarse en el movimiento de escuadrones más ligero y en la escolta armada.
+
+**¿Es mejor el rápel que aterrizar?**
+Depende de la zona de aterrizaje. El rápel evita la necesidad de tocar tierra, lo que es valioso en azoteas y huecos urbanos estrechos, pero deja a las tropas en una posición expuesta. Aterrizar es más seguro cuando el suelo ya está asegurado; el rápel es mejor cuando no lo está y necesitas altura de inmediato.
+
+**¿Dónde puedo seguir las actualizaciones del transporte de tropas de Ebbtide?**
+La página oficial de Steam es el mejor lugar para los detalles de la tienda y los tráilers, mientras que los feeds agregadores y los canales sociales del desarrollador llevan los clips de mecánicas más cortos. Como el juego sigue en desarrollo, espera que los detalles del transporte de tropas de Ebbtide sigan cambiando entre actualizaciones.

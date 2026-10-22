@@ -1,0 +1,117 @@
+export const metadata = {
+  title: "Mapa de operaciones de Ebbtide Los Ángeles: una guía práctica para leerlo y usarlo",
+  description: "Descubre cómo funciona el mapa de operaciones de Ebbtide Los Ángeles: capas, filtros, hojas de datos y un flujo de trabajo repetible para registrar observaciones costeras en LA.",
+  category: "maps",
+  date: "2026-10-22",
+}
+
+Un mapa con un solo marcador no es un fracaso: es una línea de salida. El **mapa de operaciones de Ebbtide Los Ángeles** es el corazón geográfico del proyecto Ebbtide Exploration: una vista en el navegador donde cada observación registrada aparece como un punto que puedes desplazar, ampliar, filtrar y cuestionar. Si estás planificando trabajo de campo a lo largo de la costa de LA, o intentando averiguar si un lugar ya ha sido cubierto, esta es la primera pestaña que debes abrir.
+
+A diferencia de una captura de pantalla pegada en un informe, el **mapa de operaciones de Ebbtide Los Ángeles** se genera en vivo a partir del conjunto de datos del proyecto. Esa distinción importa: lo que ves es tan actual y tan completo como lo que la comunidad ha registrado realmente. Aprender a leerlo con honestidad —incluidos los espacios vacíos— es toda la habilidad.
+
+## Qué muestra realmente el mapa de operaciones de Ebbtide Los Ángeles
+
+Ebbtide Exploration se publica en Anecdata.org, una plataforma donde los proyectos comparten sus observaciones, conjuntos de datos y mapas en un único espacio de trabajo. Abre [la página del proyecto Ebbtide Exploration en Anecdata](https://www.anecdata.org/projects/view/ebbtide-exploration/data/map?project_id=ebbtide-exploration&page=1&sort=id&direction=desc&limit=20) y obtienes un diseño con pestañas: Observaciones, Mapa y Análisis de datos, junto con una vista del conjunto de datos del proyecto y un foro de discusión.
+
+La pestaña del mapa es la vista operativa —la que vale la pena mantener abierta en un segundo monitor mientras planificas un muestreo o redactas el informe de una salida. Está construida sobre teselas de Leaflet de OpenStreetMap, lo que significa que la línea de costa, los muelles y los espigones que ves son geometría del mundo real y no una ilustración estilizada.
+
+Una instantánea de la página del proyecto en el momento de escribir esto mostraba una huella muy pequeña: una observación, dos miembros y ningún hilo de discusión. Eso no es motivo para ignorar el mapa: es la razón para leerlo con atención. En un mapa disperso, cada marcador tiene un peso desproporcionado, y cada tramo vacío de costa es una pregunta en lugar de una respuesta.
+
+| Elemento de la interfaz | Dónde se ubica | Qué te dice |
+|---|---|---|
+| Marcadores de observación | Lienzo principal del mapa | Dónde se sitúan geográficamente los registros |
+| Barra de escala (300 m / 1000 ft) | Esquina del lienzo | Distancia sobre el terreno entre marcadores: metros o kilómetros |
+| Crédito del mapa base (Leaflet / OpenStreetMap) | Parte inferior del lienzo | Confirma la fuente de las teselas y la geometría del mundo real |
+| Filtro de fecha | Barra de filtros sobre el mapa | Restringe los marcadores a una ventana temporal concreta |
+| Filtro de usuario | Barra de filtros sobre el mapa | Aísla los registros de un solo colaborador |
+| Filtro de ubicación | Barra de filtros sobre el mapa | Limita la vista a un lugar con nombre |
+| Selector de hoja de datos | Panel inferior | Cambia qué plantilla de registro representan los marcadores |
+| Contadores del proyecto | Encabezado del proyecto | Cuántos datos existen realmente |
+
+## Cómo leer la interfaz del mapa, capa por capa
+
+La mayoría de la gente abre un mapa, hace zoom en su sitio y se detiene ahí. Así es como ocurren las malas interpretaciones. En su lugar, recorre la interfaz en un orden fijo: primero los contadores, luego el mapa base, después la barra de escala y por último los marcadores.
+
+Los contadores te dicen qué tipo de mapa estás mirando. Un proyecto con un puñado de observaciones es una herramienta de exploración, no una evaluación de cobertura. El mapa base te dice qué hay físicamente allí: aparcamientos, espigones, puntos de acceso a la playa, muros del puerto. La barra de escala te dice si dos marcadores son vecinos o están a un kilómetro de distancia, lo que cambia cómo los interpretas.
+
+El nivel de zoom cambia el significado más que los píxeles. A escala de toda la ciudad, la costa de LA se comprime en un solo arco, y un marcador que parece estar sobre la arena puede en realidad estar varias manzanas tierra adentro. Confirma siempre la posición de un marcador a escala de sitio antes de construir un plan en torno a él.
+
+| Contexto de zoom | Qué se vuelve visible | Mejor uso |
+|---|---|---|
+| Toda la ciudad (cuenca de LA) | Arco costero, autopistas principales, complejo portuario | Elegir en qué subregión trabajar |
+| Distrito | Muelles, marinas, aparcamientos de playa, espigones | Planificar el acceso y los horarios |
+| Sitio | Líneas de marea, escolleras, estructuras individuales | Verificar que un marcador está donde crees |
+| Nivel de marcador | Registros superpuestos y casi duplicados | Depurar antes del análisis |
+
+## Un flujo de trabajo de campo repetible para la cuenca de LA
+
+El mapa de operaciones de Ebbtide Los Ángeles recompensa la rutina. La secuencia siguiente lleva unos diez minutos y evita el viaje desperdiciado más común: conducir hasta un sitio que ya se registró la semana pasada, o llegar sin la hoja de datos correcta seleccionada.
+
+| Paso | Acción | Por qué importa |
+|---|---|---|
+| 1 | Abrir la pestaña del mapa y borrar todos los filtros | Asegura que ves el conjunto de datos completo, no una consulta obsoleta |
+| 2 | Leer los contadores antes que nada | Ajusta las expectativas sobre cuánta evidencia existe |
+| 3 | Hacer zoom en la cuenca de LA y luego en tu sitio candidato | Confirma que el sitio está dentro del área cartografiada |
+| 4 | Cambiar a la pestaña de Observaciones y leer los registros | Los marcadores por sí solos no dicen qué se registró |
+| 5 | Elegir una subregión con pocos marcadores o ninguno | El esfuerzo vale más donde la cobertura es escasa |
+| 6 | Revisar el selector de hoja de datos antes de salir | Una plantilla equivocada significa un registro que no se puede comparar |
+| 7 | Registrar y luego recargar el mapa para confirmar la ubicación | Detecta desplazamientos y duplicados de inmediato |
+
+Como Los Ángeles es un mosaico de jurisdicciones y normas de acceso, el mapa es solo la mitad de la planificación. Combínalo con conocimiento local sobre aparcamiento, ventanas de marea y restricciones señalizadas.
+
+| Subregión de LA | Carácter del acceso | Qué verificar antes de registrar |
+|---|---|---|
+| Malibu y Santa Monica Bay | Costa larga y abierta, acceso dependiente de la marea | Ventana de marea y normas de playa señalizadas |
+| Marina del Rey y Ballona | Agua canalizada, mucho tráfico | Si el punto de observación está en tierra o en el muelle |
+| Puerto de Los Ángeles / San Pedro | Industrial, zonas restringidas | Si existe acceso público en el marcador |
+| Long Beach y Alamitos Bay | Frente marítimo público y marina mixtos | En qué lado del espigón estás |
+| Alto río de LA y estuario | Canalizado, presencia de agua variable | Si las condiciones coinciden con la intención de la hoja de datos |
+
+## Filtros, hojas de datos y calidad de los datos
+
+Los filtros convierten un mapa en una consulta. El filtro de fecha es el que la gente menos usa: las condiciones costeras cambian según la estación, y un registro de un temporal de invierno te dice algo distinto que uno de una tarde de verano con mar plana. El filtro de usuario es una herramienta de auditoría: si un solo colaborador domina el conjunto de datos, trata el patrón como informes de un único observador y no como un consenso.
+
+El filtro de ubicación se usa mejor al final. Busca un lugar con nombre solo después de haber visto toda la cuenca; de lo contrario, nunca notarás que la cala vecina está vacía.
+
+| Filtro | Qué hace | Uso práctico | Ojo con |
+|---|---|---|---|
+| Fecha | Limita los marcadores a una ventana | Comparaciones estacionales | Las ventanas muy estrechas pueden devolver cero resultados |
+| Usuario | Muestra un solo colaborador | Auditar los registros de un observador | Las muestras pequeñas sesgan la interpretación |
+| Ubicación | Restringe a un lugar con nombre | Comprobaciones a nivel de sitio | Oculta los huecos cercanos |
+
+La calidad de los datos en un proyecto pequeño es un trabajo manual. Unas pocas comprobaciones cubren la mayor parte.
+
+| Problema | Síntoma en el mapa | Solución |
+|---|---|---|
+| Registros duplicados | Dos marcadores casi tocándose | Leer ambos registros antes de registrar un tercero |
+| Desplazamiento del marcador | El punto queda tierra adentro o mar adentro | Volver a comprobarlo a escala de sitio contra el mapa base |
+| Desajuste de hoja de datos | Registros que no se comparan limpiamente | Confirmar la plantilla antes de enviar |
+| Cobertura desactualizada | Marcadores agrupados en una sola estación | Anotar la fecha al citar el mapa |
+| Espacio vacío | Ningún marcador en un tramo largo | Tratarlo como "no hay esfuerzo registrado", no como "no hay nada ahí" |
+
+## Errores que vuelven inútil un mapa de operaciones
+
+El mapa de operaciones de Ebbtide Los Ángeles es fácil de usar mal de formas que parecen progreso. Atento a estos casos:
+
+- **Leer la ausencia como evidencia.** Un tramo vacío de costa suele significar que nadie lo registró, no que no hubiera nada.
+- **Ignorar la barra de escala.** Una barra de 300 m / 1000 ft a zoom de distrito comprime la distancia drásticamente.
+- **Confiar en la precisión del marcador.** El GPS de consumo y los puntos colocados a mano conllevan error; confírmalo contra el mapa base.
+- **Saltarse la hoja de datos.** Los registros que no coinciden con la plantilla no se pueden comparar después.
+- **Hacer capturas de pantalla en lugar de enlazar.** Las capturas quedan obsoletas en una semana; la vista en vivo del mapa no.
+- **Trabajar en el grupo denso.** Añadir un quinto marcador donde ya hay cuatro tiene menos valor que el primer marcador en un lugar nuevo.
+
+Los informes de la comunidad son la savia de este proyecto. Un proyecto con dos miembros crece una observación a la vez, y el mapa mejora en el momento en que alguien registra un sitio que antes estaba en blanco.
+
+## FAQ
+
+**¿Es gratis ver el mapa de operaciones de Ebbtide Los Ángeles?**
+Sí. La vista del mapa es pública en la página del proyecto y no requiere software especial: solo un navegador. Puedes desplazarte, hacer zoom y aplicar filtros sin descargar nada.
+
+**¿Qué tan actualizado está el mapa de operaciones de Ebbtide Los Ángeles?**
+Refleja el conjunto de datos en el momento en que lo cargas. En un proyecto pequeño, eso significa que el mapa puede verse idéntico durante semanas y luego cambiar de repente tras una sola salida de campo. Comprueba siempre el filtro de fecha en lugar de suponer que está actualizado.
+
+**¿Puedo contribuir al mapa sin ser miembro?**
+Por lo general, registrar requiere unirse al proyecto para que tus registros se vinculen a una cuenta de miembro. La navegación es abierta, pero contribuir es un paso deliberado, lo cual es bueno porque mantiene los registros atribuibles.
+
+**¿Y si el mapa no muestra casi nada cerca de mi sitio en LA?**
+Ese es el resultado más útil que puedes obtener. Trata el hueco como una tarea: confirma el acceso, revisa la hoja de datos, registra con cuidado y recarga el mapa para verificar que el marcador quedó bien ubicado. Un registro bien colocado en un mapa disperso vale más que diez en uno abarrotado.

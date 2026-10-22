@@ -1,0 +1,117 @@
+export const metadata = {
+  title: "Ebbtide Los Angeles Operations Map: A Practical Guide to Reading and Using It",
+  description: "See how the Ebbtide Los Angeles operations map works: layers, filters, datasheets, and a repeatable workflow for logging coastal observations in LA.",
+  category: "maps",
+  date: "2026-10-22",
+}
+
+A map with a single pin is not a failure — it's a starting line. The **Ebbtide Los Angeles operations map** is the geographic heart of the Ebbtide Exploration project: a browser-based view where every logged observation lands as a point you can pan, zoom, filter, and question. If you're planning fieldwork along the LA coastline, or trying to figure out whether a spot has already been covered, this is the first tab to open.
+
+Unlike a screenshot pasted into a report, the **Ebbtide Los Angeles operations map** is generated live from the project's dataset. That distinction matters: what you see is only as current and as complete as what the community has actually recorded. Learning to read it honestly — including the empty spaces — is the whole skill.
+
+## What the Ebbtide Los Angeles Operations Map Actually Shows
+
+Ebbtide Exploration is published on Anecdata.org, a platform where projects share their observations, datasets, and maps in a single workspace. Open [the Ebbtide Exploration project page on Anecdata](https://www.anecdata.org/projects/view/ebbtide-exploration/data/map?project_id=ebbtide-exploration&page=1&sort=id&direction=desc&limit=20) and you get a tabbed layout: Observations, Map, and Data analysis, alongside a project dataset view and a discussion forum.
+
+The map tab is the operational view — the one worth keeping open on a second monitor while you plan a survey or write up a trip. It is built on Leaflet tiles from OpenStreetMap, which means the coastline, piers, and breakwaters you see are real-world geometry rather than a stylized illustration.
+
+A snapshot of the project page at the time of writing showed a very small footprint: one observation, two members, and no discussion threads. That is not a reason to ignore the map — it's the reason to read it carefully. On a sparse map, every pin carries disproportionate weight, and every blank stretch of shoreline is a question rather than an answer.
+
+| Interface element | Where it lives | What it tells you |
+|---|---|---|
+| Observation pins | Main map canvas | Where logged records sit geographically |
+| Scale bar (300 m / 1000 ft) | Corner of the canvas | Ground distance between pins — meters or kilometers |
+| Basemap credit (Leaflet / OpenStreetMap) | Bottom of the canvas | Confirms the tile source and real-world geometry |
+| Date filter | Filter bar above the map | Narrows pins to a specific time window |
+| User filter | Filter bar above the map | Isolates a single contributor's records |
+| Location filter | Filter bar above the map | Restricts the view to a named place |
+| Datasheet chooser | Lower panel | Switches which record template the pins represent |
+| Project counters | Project header | How much data actually exists |
+
+## How to Read the Map Interface, Layer by Layer
+
+Most people open a map, zoom to their site, and stop there. That's how misreadings happen. Work the interface in a fixed order instead: counters first, then the basemap, then the scale bar, then the pins.
+
+The counters tell you what kind of map you're looking at. A project with a handful of observations is a scouting tool, not a coverage assessment. The basemap tells you what's physically there — parking, jetties, beach access points, harbor walls. The scale bar tells you whether two pins are neighbors or a kilometer apart, which changes how you interpret them.
+
+Zoom level changes meaning more than it changes pixels. At citywide scale the LA coastline compresses into a single arc, and a pin that looks like it's on the sand may actually sit several blocks inland. Always confirm a pin's position at site scale before you build a plan around it.
+
+| Zoom context | What becomes visible | Best use |
+|---|---|---|
+| Citywide (LA basin) | Coastline arc, major freeways, harbor complex | Choosing which sub-region to work |
+| District | Piers, marinas, beach lots, breakwaters | Planning access and timing |
+| Site | Tide lines, jetties, individual structures | Verifying a pin sits where you think |
+| Pin-level | Overlapping and near-duplicate records | Cleaning up before analysis |
+
+## A Repeatable Fieldwork Workflow for the LA Basin
+
+The Ebbtide Los Angeles operations map rewards routine. The sequence below takes about ten minutes and prevents the most common wasted trip — driving to a site that was already logged last week, or arriving without the right datasheet selected.
+
+| Step | Action | Why it matters |
+|---|---|---|
+| 1 | Open the map tab and clear all filters | Ensures you see the full dataset, not a stale query |
+| 2 | Read the counters before anything else | Sets expectations for how much evidence exists |
+| 3 | Zoom to the LA basin, then to your candidate site | Confirms the site is inside the mapped area |
+| 4 | Switch to the Observations tab and read the records | Pins alone don't tell you what was recorded |
+| 5 | Choose a sub-region with few or no pins | Effort is most valuable where coverage is thin |
+| 6 | Check the datasheet chooser before you leave | Wrong template means a record that can't be compared |
+| 7 | Log, then reload the map to confirm placement | Catches drift and duplicates immediately |
+
+Because Los Angeles is a patchwork of jurisdictions and access rules, the map is only half the planning. Pair it with local knowledge about parking, tide windows, and posted restrictions.
+
+| LA sub-region | Access character | What to verify before logging |
+|---|---|---|
+| Malibu and Santa Monica Bay | Long open shoreline, tide-dependent access | Tide window and posted beach rules |
+| Marina del Rey and Ballona | Channelized water, heavy traffic | Whether the observation point is on land or dock |
+| Port of Los Angeles / San Pedro | Industrial, restricted zones | Whether public access exists at the pin |
+| Long Beach and Alamitos Bay | Mixed public waterfront and marina | Which side of the breakwater you're on |
+| Upper LA River and estuary | Channelized, variable water presence | Whether conditions match the datasheet's intent |
+
+## Filters, Datasheets, and Data Quality
+
+Filters turn a map into a query. The date filter is the one people underuse: coastal conditions shift seasonally, and a record from a winter swell tells you something different than one from a flat summer afternoon. The user filter is an audit tool — if a single contributor dominates the dataset, treat the pattern as community reports from one observer rather than a consensus.
+
+The location filter is best used last. Search a named place only after you've seen the whole basin, otherwise you'll never notice that the neighboring cove is empty.
+
+| Filter | What it does | Practical use | Watch out for |
+|---|---|---|---|
+| Date | Limits pins to a window | Seasonal comparisons | Very narrow windows can return zero results |
+| User | Shows one contributor | Auditing a single observer's records | Small samples skew interpretation |
+| Location | Restricts to a named place | Site-level checks | Hides nearby gaps |
+
+Data quality on a small project is a hands-on job. A few checks cover most of it.
+
+| Issue | Symptom on the map | Fix |
+|---|---|---|
+| Duplicate records | Two pins nearly touching | Read both records before logging a third |
+| Pin drift | Point sits inland or offshore | Re-check at site scale against the basemap |
+| Datasheet mismatch | Records that don't compare cleanly | Confirm template before submitting |
+| Stale coverage | Pins clustered in one season | Note the date when citing the map |
+| Empty space | No pins over a long stretch | Treat as "no effort recorded," not "nothing there" |
+
+## Mistakes That Make an Operations Map Useless
+
+The Ebbtide Los Angeles operations map is easy to misuse in ways that feel like progress. Watch for these:
+
+- **Reading absence as evidence.** A blank stretch of shoreline usually means nobody logged it, not that nothing was there.
+- **Ignoring the scale bar.** A 300 m / 1000 ft bar at district zoom compresses distance dramatically.
+- **Trusting pin precision.** Consumer GPS and hand-placed points both carry error; confirm against the basemap.
+- **Skipping the datasheet.** Records that don't match the template can't be compared later.
+- **Screenshotting instead of linking.** Screenshots go stale in a week; the live map view doesn't.
+- **Working the dense cluster.** Adding a fifth pin where four already exist is lower value than the first pin somewhere new.
+
+Community reports are the lifeblood here. A project with two members grows one observation at a time, and the map improves the moment someone logs a site that was previously blank.
+
+## FAQ
+
+**Is the Ebbtide Los Angeles operations map free to view?**
+Yes. The map view is public on the project page and doesn't require special software — just a browser. You can pan, zoom, and apply filters without downloading anything.
+
+**How current is the Ebbtide Los Angeles operations map?**
+It reflects the dataset at the moment you load it. On a small project, that means the map can look identical for weeks and then change suddenly after a single field session. Always check the date filter rather than assuming freshness.
+
+**Can I contribute to the map without being a member?**
+Logging typically requires joining the project so your records attach to a member account. Browsing is open, but contributing is a deliberate step — which is good, because it keeps records attributable.
+
+**What if the map shows almost nothing near my LA site?**
+That's the most useful result you can get. Treat the gap as an assignment: confirm access, check the datasheet, log carefully, and reload the map to verify the pin landed correctly. One well-placed record on a sparse map is worth more than ten in a crowded one.
