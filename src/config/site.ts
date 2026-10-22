@@ -35,6 +35,6 @@ export const siteConfig: SiteConfig = {
     twitter: "https://x.com/ProjectAliveDev",
     steamCommunity: "https://steamcommunity.com/app/4915700",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  locales: ["en", "de", "es", "ja"],
   defaultLocale: "en",
 };
