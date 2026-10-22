@@ -1,10 +1,10 @@
 {
   "site": {
-    "name": "My Seafood Stand Wiki",
-    "shortName": "My Seafood Stand",
-    "tagline": "Complete Guides, Codes, Recipes & Tier Lists",
-    "description": "Your ultimate guide to My Seafood Stand on Roblox! Explore active codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
-    "legalNotice": "Non-official fan wiki. Made by players, for players."
+    "name": "Ebbtide Wiki",
+    "shortName": "Ebbtide",
+    "tagline": "Zombie Survival Strategy Guides, Units & Gameplay",
+    "description": "Explore Ebbtide guides, gameplay mechanics, military units, survival strategies, base building tips, system requirements, and the latest release date news.",
+    "legalNotice": "Independent fan wiki. Not affiliated with ProjectAlive or Valve Corporation."
   },
   "nav": {
     "races": "Races",
@@ -30,18 +30,18 @@
       "description": "Complete My Seafood Stand guide on Roblox with active working codes, all fish & recipes, best upgrades tier list, and fast cash tips."
     },
     "hero": {
-      "eyebrow": "Fan-Made Community Wiki",
-      "title": "My Seafood Stand",
-      "description": "Master your restaurant in My Seafood Stand on Roblox. Access all active codes, complete fish & recipe catalog, optimal upgrades, and pro money-making strategies.",
+      "eyebrow": "Zombie Survival Real-Time Strategy",
+      "title": "Ebbtide Wiki",
+      "description": "Lead humanity's last carrier task force through zombie-infested Los Angeles. Command military units, rescue survivors, build defenses, manage supplies, and fight across a seamless operational map and 3D battlefield.",
       "stats": [
-        "All Codes",
-        "All Fish & Recipes",
-        "Upgrade Guides",
-        "Fast Cash Tips"
+        "Coming Soon",
+        "PC & Mac",
+        "11 Languages",
+        "Single-player"
       ],
       "primaryCta": "Beginner Guide",
-      "secondaryCta": "Seafood Tier List",
-      "tertiaryCta": "Active Codes",
+      "secondaryCta": "View on Steam",
+      "tertiaryCta": "Join the Discord",
       "videoLabel": "Official media"
     },
     "updates": {
@@ -342,10 +342,10 @@
       ]
     },
     "finalCta": {
-      "title": "Ready to Master My Seafood Stand?",
-      "description": "From your first steps in Fort Adams to endgame boss fights our community wiki has you covered with free, up-to-date guides.",
+      "title": "Ready to Master Ebbtide?",
+      "description": "Lead the last carrier task force through zombie-infested Los Angeles. Explore units, survival tactics, base building, and release updates in our community wiki.",
       "primary": "Read the Beginner Guide",
-      "secondary": "Play on Roblox"
+      "secondary": "View on Steam"
     }
   },
   "bosses": {
@@ -379,17 +379,18 @@
     "noGuidesAvailable": "No guides available yet. Check back soon!"
   },
   "footer": {
-    "aboutTitle": "My Seafood Stand Wiki",
-    "about": "My Seafood Stand Wiki is an independent fan-built guide hub covering progression routes, races, bosses, builds, and essential game knowledge for new and veteran players alike.",
+    "aboutTitle": "Ebbtide Wiki",
+    "about": "Ebbtide Wiki is an independent fan-built guide hub covering military units, survival strategy, base building, systems, and essential game knowledge for new and veteran commanders.",
     "quickLinks": "Quick Links",
     "guides": "Guides",
     "legal": "Legal",
-    "copyright": "2026 My Seafood Stand Wiki. Not affiliated with Midnight Continent or Roblox.",
-    "description": "Free Bleach-inspired fighting RPG on Roblox. 3 races, 130+ skills, Lv100 cap.",
-    "playGame": "Play My Seafood Stand",
-    "officialDiscord": "Official Discord",
-    "officialYoutube": "Official YouTube",
-    "vvBuilder": "VV Builder (Skill Planner)",
+    "copyright": "2026 Ebbtide Wiki. Not affiliated with ProjectAlive or Valve Corporation.",
+    "description": "Single-player zombie survival RTS set in Los Angeles. Command carriers, units, and survivors.",
+    "playGame": "View Ebbtide on Steam",
+    "steamCommunity": "Steam Community Hub",
+    "officialDiscord": "Ebbtide Discord",
+    "officialYoutube": "Ebbtide YouTube",
+    "vvBuilder": "ProjectAlive on X",
     "beginnerGuide": "Beginner Guide",
     "raceGuides": "Race Guides",
     "bossGuides": "Boss Guides",

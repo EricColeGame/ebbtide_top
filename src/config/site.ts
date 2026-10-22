@@ -13,6 +13,7 @@ export interface SiteConfig {
     youtube?: string;
     twitter?: string;
     tiktok?: string;
+    steamCommunity?: string;
   };
   locales: readonly string[];
   defaultLocale: string;
@@ -25,13 +26,14 @@ export const siteConfig: SiteConfig = {
   tagline: "Zombie Survival Strategy Guides, Units & Gameplay",
   description: "Explore Ebbtide guides, gameplay mechanics, military units, survival strategies, base building tips, system requirements, and the latest release date news.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://ebbtide.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://ebbtide.top").hostname.replace(/^www\./, "")}`,
+  supportEmail: "support@ebbtide.top",
   gameUrl: "https://store.steampowered.com/app/4915700/Ebbtide/",
   heroVideoId: "59f_XjUgFdE", // Ebbtide Official Steam Gameplay Trailer
   social: {
     discord: "https://discord.gg/JwGQGQFqhD",
     youtube: "https://www.youtube.com/@EbbtideGame",
     twitter: "https://x.com/ProjectAliveDev",
+    steamCommunity: "https://steamcommunity.com/app/4915700",
   },
   locales: ["en", "es", "pt", "de", "fr"],
   defaultLocale: "en",
