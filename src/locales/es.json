@@ -1,1 +1,519 @@
-{}
+{
+  "site": {
+    "name": "Ebbtide Wiki",
+    "shortName": "Ebbtide",
+    "tagline": "Guías de estrategia, unidades y jugabilidad para sobrevivir a los zombis",
+    "description": "Explora guías de Ebbtide, mecánicas de juego, unidades militares, estrategias de supervivencia, consejos para construir bases, requisitos del sistema y las últimas noticias sobre el lanzamiento.",
+    "legalNotice": "Wiki de fans independiente. No está afiliada a ProjectAlive ni a Valve Corporation."
+  },
+  "nav": {
+    "home": "Inicio",
+    "menu": "Menú",
+    "toggleTheme": "Cambiar tema",
+    "guide": "Guía",
+    "mechanics": "Mecánicas",
+    "combat": "Combate",
+    "units": "Unidades",
+    "base": "Base",
+    "maps": "Mapas",
+    "community": "Comunidad"
+  },
+  "home": {
+    "meta": {
+      "title": "Ebbtide Wiki: guía para principiantes, unidades, construcción de bases e información de lanzamiento",
+      "description": "Explora guías de Ebbtide sobre combate de escuadrones, unidades militares, construcción de bases, defensa contra hordas, la campaña de Los Ángeles y detalles del lanzamiento."
+    },
+    "hero": {
+      "eyebrow": "Estrategia de supervivencia zombi en tiempo real",
+      "title": "Ebbtide Wiki",
+      "description": "Dirige la última fuerza de portaaviones de la humanidad por Los Ángeles, infestado de zombis. Comanda unidades militares, rescata supervivientes, construye defensas, gestiona suministros y lucha en un mapa operativo continuo y un campo de batalla en 3D.",
+      "stats": [
+        "Próximamente",
+        "PC y Mac",
+        "11 idiomas",
+        "Un jugador"
+      ],
+      "primaryCta": "Guía para principiantes",
+      "secondaryCta": "Ver en Steam",
+      "tertiaryCta": "Únete al Discord",
+      "videoLabel": "Contenido oficial"
+    },
+    "updates": {
+      "title": "Últimas novedades",
+      "browse": "Explorar todas las guías",
+      "viewAll": "Ver todo"
+    },
+    "start": {
+      "eyebrow": "Empieza aquí",
+      "title": "Tu recorrido por Ebbtide",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guía para principiantes",
+          "description": "Aprende el ciclo de mando con dos vistas, asegura tu primera posición y sobrevive a las hordas iniciales en Los Ángeles."
+        },
+        {
+          "number": "2",
+          "title": "Unidades y vehículos",
+          "description": "Comprende cómo colaboran la infantería, los carros M2 Abrams, los helicópteros AH-6M Little Bird y el apoyo de artillería."
+        },
+        {
+          "number": "3",
+          "title": "Construcción de bases",
+          "description": "Construye defensas escalonadas, bases de operaciones avanzadas, posiciones de tiro en azoteas y una línea de repliegue antes de la primera gran oleada."
+        },
+        {
+          "number": "4",
+          "title": "Fundamentos del combate",
+          "description": "Interpreta la presión de la horda, sincroniza la artillería con las rutas de aproximación y mantén reservas móviles cuando una línea defensiva ceda."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas populares",
+      "title": "Tendencias actuales",
+      "quickLinks": [
+        "Guía para principiantes",
+        "Unidades y vehículos",
+        "Defensa de la base",
+        "Fundamentos del combate"
+      ],
+      "cards": [
+        {
+          "badge": "Principiante",
+          "title": "Guía para principiantes",
+          "description": "Aprende el ciclo entre superviviente y comandante, las prioridades iniciales y los errores más comunes.",
+          "href": "/guide/ebbtide-beginner-guide"
+        },
+        {
+          "badge": "Esencial",
+          "title": "Guía de jugabilidad",
+          "description": "Descubre cómo encajan las órdenes de escuadrón, la construcción de bases, los blindados, el apoyo aéreo y la artillería.",
+          "href": "/guide/ebbtide-gameplay-guide"
+        },
+        {
+          "badge": "Unidades",
+          "title": "Unidades y vehículos",
+          "description": "Revisa las funciones documentadas de la infantería, los carros Abrams, los helicópteros Little Bird y el apoyo de fuego.",
+          "href": "/units/ebbtide-military-units"
+        },
+        {
+          "badge": "Defensa",
+          "title": "Construcción de bases",
+          "description": "Planifica la profundidad defensiva, las bases de operaciones avanzadas, las azoteas y las rutas de retirada.",
+          "href": "/mechanics/ebbtide-base-building"
+        },
+        {
+          "badge": "Combate",
+          "title": "Estrategia de combate",
+          "description": "Coordina la producción, la composición de fuerzas, los corredores de evacuación y el apoyo de fuego.",
+          "href": "/combat/ebbtide-combat-guide"
+        },
+        {
+          "badge": "Noticias",
+          "title": "Tráiler de anuncio",
+          "description": "Analiza las imágenes de presentación, los datos confirmados del juego y la propuesta de campaña de ProjectAlive.",
+          "href": "/community/ebbtide-announcement-trailer"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "¿Qué es Ebbtide?",
+      "paragraphs": [
+        "Ebbtide es un juego de estrategia en tiempo real para un jugador sobre la supervivencia zombi de ProjectAlive. Ambientado en un Los Ángeles que se desmorona, te pone al mando de la última fuerza de portaaviones y te pide rescatar supervivientes mientras mantienes posiciones frente a enormes hordas de zombis.",
+        "Puedes luchar directamente como superviviente en el suelo y después volver a una vista de mando cenital para dirigir escuadrones de infantería, carros M2 Abrams, helicópteros AH-6M Little Bird y artillería. Las bases de operaciones avanzadas, las defensas en azoteas, las rutas de evacuación y las posiciones de repliegue escalonadas convierten cada operación en una disputa por la posición y los suministros."
+      ],
+      "stats": [
+        {
+          "label": "Desarrollador",
+          "value": "ProjectAlive"
+        },
+        {
+          "label": "Editor",
+          "value": "ProjectAlive"
+        },
+        {
+          "label": "Plataformas",
+          "value": "PC y Mac"
+        },
+        {
+          "label": "Lanzamiento",
+          "value": "Próximamente"
+        },
+        {
+          "label": "Género",
+          "value": "RTS de supervivencia zombi"
+        },
+        {
+          "label": "Modo",
+          "value": "Un jugador"
+        },
+        {
+          "label": "Idiomas",
+          "value": "11"
+        },
+        {
+          "label": "Ambientación",
+          "value": "Los Ángeles"
+        }
+      ],
+      "cta": "Explorar todas las guías"
+    },
+    "explore": {
+      "title": "Explora la wiki de Ebbtide",
+      "description": "Planifica tu primera operación y sigue la campaña con guías sobre combate de escuadrones, unidades militares, defensa de la base, presión de la horda e información del lanzamiento.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guía para principiantes de Ebbtide",
+          "description": "Aprende el ciclo principal: comanda una fuerza de portaaviones, rescata supervivientes, gestiona unidades militares y defiende Los Ángeles frente a grandes hordas de zombis.",
+          "href": "/guide/ebbtide-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Aprende el ciclo de dos vistas: lucha como superviviente y vuelve atrás para comandar escuadrones."
+            },
+            {
+              "label": "2",
+              "detail": "Asegura una base de producción y un escuadrón pequeño y flexible antes de expandirte."
+            },
+            {
+              "label": "3",
+              "detail": "Coloca una base de operaciones avanzada con espacio para crecer y una ruta de retirada despejada."
+            },
+            {
+              "label": "4",
+              "detail": "Construye defensas por capas y mantén al menos una posición de tiro en una azotea."
+            },
+            {
+              "label": "5",
+              "detail": "Trata las hordas como una presión sostenida: rota las unidades dañadas y reserva recursos para reparaciones."
+            },
+            {
+              "label": "6",
+              "detail": "Revisa tu orden de construcción tras cada enfrentamiento en lugar de repetir una distribución fallida."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Jugabilidad y características de Ebbtide",
+          "description": "Descubre cómo Ebbtide combina el combate directo como superviviente, el mando de escuadrones en tiempo real, la construcción de bases, los vehículos blindados, el apoyo aéreo y la artillería.",
+          "href": "/guide/ebbtide-gameplay-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Dos vistas",
+              "detail": "Alterna entre el control directo del superviviente y una vista de mando cenital para interpretar y moldear la batalla."
+            },
+            {
+              "label": "Escuadrones",
+              "detail": "Ordena a los grupos de infantería que cubran a los blindados, mantengan posiciones y protejan los flancos expuestos."
+            },
+            {
+              "label": "BOA",
+              "detail": "Las bases de operaciones avanzadas acortan las rutas de refuerzo y extienden la presión hacia manzanas disputadas."
+            },
+            {
+              "label": "Blindados",
+              "detail": "Los carros M2 Abrams aseguran los pasillos y absorben la presión de la horda cuando la infantería cubre sus cascos."
+            },
+            {
+              "label": "Aire",
+              "detail": "Los helicópteros AH-6M Little Bird se encargan de la respuesta rápida, la extracción y las salidas de precisión breves."
+            },
+            {
+              "label": "Artillería",
+              "detail": "Los ataques solicitados rompen los grupos densos antes de que alcancen tu línea defensiva."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Unidades y vehículos militares de Ebbtide",
+          "description": "Compara las funciones documentadas en el campo de batalla de la artillería, los carros M2 Abrams, los helicópteros AH-6M Little Bird y las bases de operaciones avanzadas.",
+          "href": "/units/ebbtide-military-units",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Artillería: rompe los grupos densos de la horda antes del contacto y dispara en los picos de densidad."
+            },
+            {
+              "label": "A",
+              "detail": "M2 Abrams: asegura un pasillo defensivo, absorbe la presión y rota los blindados dañados para repararlos."
+            },
+            {
+              "label": "B",
+              "detail": "AH-6M Little Bird: ataca rápido, rompe el contacto pronto y coordina con observadores terrestres."
+            },
+            {
+              "label": "C",
+              "detail": "Base avanzada: amplía el alcance y acorta la distancia de refuerzo cuando la primera línea resiste."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Guía de estrategia de combate de Ebbtide",
+          "description": "Coordina la producción, la composición de fuerzas, los corredores de evacuación y el apoyo de fuego mientras te defiendes de una presión zombi cada vez mayor.",
+          "href": "/combat/ebbtide-combat-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Asegura una base de producción y un escuadrón pequeño y flexible antes de construir en amplitud."
+            },
+            {
+              "label": "2",
+              "detail": "Amplía el control del mapa con una base de operaciones avanzada y rutas de aproximación exploradas."
+            },
+            {
+              "label": "3",
+              "detail": "Construye defensas escalonadas y capacidad de reparación antes de la primera gran oleada."
+            },
+            {
+              "label": "4",
+              "detail": "Mantén reservas móviles preparadas y dispara artillería en los picos de densidad durante la aproximación."
+            },
+            {
+              "label": "5",
+              "detail": "Protege los corredores de evacuación y mantén al menos una posición de tiro elevada."
+            },
+            {
+              "label": "6",
+              "detail": "Repliégate, consolida y contraataca en lugar de enviar unidades a un pasillo que se derrumba."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Construcción y defensa de bases en Ebbtide",
+          "description": "Planifica la profundidad defensiva, las bases de operaciones avanzadas, las posiciones de tiro en azoteas, las zonas de preparación de vehículos y las líneas de repliegue frente a ataques sostenidos.",
+          "href": "/mechanics/ebbtide-base-building",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Perímetro",
+              "detail": "Convierte el terreno abierto en una zona de muerte con arcos defensivos superpuestos."
+            },
+            {
+              "label": "BOA",
+              "detail": "Coloca bases de operaciones avanzadas donde puedan llegar los refuerzos y retirarse las unidades."
+            },
+            {
+              "label": "Azoteas",
+              "detail": "Usa posiciones de tiro elevadas para multiplicar la fuerza efectiva y cubrir los accesos desde la calle."
+            },
+            {
+              "label": "Preparación",
+              "detail": "Mantén los blindados reparados y listos en una zona de preparación de vehículos cerca de la línea."
+            },
+            {
+              "label": "Repliegue",
+              "detail": "Construye una segunda línea para que una brecha no provoque un colapso total."
+            },
+            {
+              "label": "Capas",
+              "detail": "Construye en profundidad en lugar de levantar un único muro que falle en un punto."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Campaña global y progresión de Ebbtide",
+          "description": "Sigue la campaña desde la cabeza de playa de Los Ángeles hacia operaciones más amplias mientras rescatas supervivientes y mantienes tu fuerza de portaaviones.",
+          "href": "/mechanics/ebbtide-rts-gameplay",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Estabiliza la cabeza de playa de Los Ángeles y establece una base de producción."
+            },
+            {
+              "label": "2",
+              "detail": "Rescata y escolta a civiles mientras mantienes abiertos los corredores de evacuación."
+            },
+            {
+              "label": "3",
+              "detail": "Asegura rutas de suministro y bases de operaciones avanzadas para sostener cada avance."
+            },
+            {
+              "label": "4",
+              "detail": "Amplía las operaciones urbanas hacia el apoyo a otras regiones."
+            },
+            {
+              "label": "5",
+              "detail": "Mantén la misma disciplina de armas combinadas en operaciones de campaña más grandes."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Fecha de lanzamiento y plataformas de Ebbtide",
+          "description": "Consulta el estado de lanzamiento confirmado, los sistemas operativos compatibles, el modo de juego, los idiomas disponibles y los detalles oficiales de la tienda.",
+          "href": "/community/ebbtide-announcement-trailer",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Lanzamiento",
+              "detail": "Próximamente: no se ha anunciado fecha de lanzamiento ni precio."
+            },
+            {
+              "label": "Plataformas",
+              "detail": "Windows y macOS."
+            },
+            {
+              "label": "Modo",
+              "detail": "Un jugador con Biblioteca familiar activada."
+            },
+            {
+              "label": "Idiomas",
+              "detail": "11 idiomas de interfaz y subtítulos, incluidos inglés, alemán, español y japonés."
+            },
+            {
+              "label": "Desarrollador",
+              "detail": "ProjectAlive, autoeditado."
+            },
+            {
+              "label": "Entrada",
+              "detail": "Se admiten mandos de Xbox y el juego se puede completar sin eventos de tiempo rápido."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Noticias y novedades de Ebbtide",
+          "description": "Sigue los anuncios oficiales, las novedades de desarrollo, las presentaciones de jugabilidad y los tráilers de ProjectAlive y la comunidad de Ebbtide.",
+          "href": "/community/ebbtide-announcement-trailer",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Tráiler",
+              "detail": "El tráiler de anuncio muestra un mapa operativo a escala de ciudad que pasa al combate callejero sin pantalla de carga."
+            },
+            {
+              "label": "Steam",
+              "detail": "La página de Steam indica que ProjectAlive es el desarrollador y editor, con estado de lanzamiento próximo."
+            },
+            {
+              "label": "Discord",
+              "detail": "El Discord oficial de Ebbtide es el centro de la comunidad para novedades y debates sobre el desarrollo."
+            },
+            {
+              "label": "YouTube",
+              "detail": "El canal oficial Ebbtide Game alberga tráilers y presentaciones de jugabilidad."
+            },
+            {
+              "label": "X",
+              "detail": "Sigue a @ProjectAliveDev para recibir los anuncios del equipo de desarrollo."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "description": "Respuestas rápidas sobre Ebbtide, su estado de lanzamiento, plataformas, ciclo de combate, unidades y prioridades para principiantes.",
+      "items": [
+        {
+          "question": "¿Qué es Ebbtide?",
+          "answer": "Ebbtide es un juego de estrategia en tiempo real para un jugador sobre la supervivencia zombi de ProjectAlive. Se ambienta en un Los Ángeles que se desmorona, donde comandas la última fuerza de portaaviones, rescatas supervivientes y te defiendes de enormes hordas de zombis."
+        },
+        {
+          "question": "¿Cuándo se lanza Ebbtide?",
+          "answer": "Ebbtide figura como Próximamente en Steam. ProjectAlive no ha anunciado una fecha de lanzamiento ni un precio."
+        },
+        {
+          "question": "¿Qué plataformas admitirá Ebbtide?",
+          "answer": "Ebbtide está listado para Windows y macOS. La página de Steam también confirma la compatibilidad con un jugador y Biblioteca familiar."
+        },
+        {
+          "question": "¿Cuál es el ciclo principal de jugabilidad de Ebbtide?",
+          "answer": "Luchas como superviviente en el suelo, cambias a una vista de mando cenital para dirigir escuadrones y apoyo de fuego, y construyes bases de operaciones avanzadas entre ataques de hordas."
+        },
+        {
+          "question": "¿Qué unidades de Ebbtide están confirmadas?",
+          "answer": "El material oficial y los datos de la tienda han mostrado infantería, carros M2 Abrams, helicópteros AH-6M Little Bird, bases de operaciones avanzadas y artillería."
+        },
+        {
+          "question": "¿Cómo deberían empezar los principiantes en Ebbtide?",
+          "answer": "Empieza con la Guía para principiantes de Ebbtide: asegura la producción, mantén un escuadrón flexible, construye defensas por capas y evita sobreextenderte antes de la primera gran horda."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "¿Listo para dominar Ebbtide?",
+      "description": "Dirige la última fuerza de portaaviones por Los Ángeles, infestado de zombis. Explora unidades, tácticas de supervivencia, construcción de bases y novedades del lanzamiento en nuestra wiki comunitaria.",
+      "primary": "Leer la guía para principiantes",
+      "secondary": "Ver en Steam"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Guías de Ebbtide",
+    "overviewDescription": "Guías para principiantes y de jugabilidad de Ebbtide sobre controles, combate de escuadrones, construcción de bases, supervivencia y consejos prácticos para la campaña de Los Ángeles."
+  },
+  "mechanics": {
+    "overviewTitle": "Mecánicas de Ebbtide",
+    "overviewDescription": "Guías de mecánicas de Ebbtide sobre mando RTS, defensa contra hordas, construcción de bases, gestión de recursos, transporte de tropas y sistemas de supervivencia zombi."
+  },
+  "combat": {
+    "overviewTitle": "Combate de Ebbtide",
+    "overviewDescription": "Guías de combate de Ebbtide sobre tácticas de infantería, armas y artillería, operaciones con helicópteros, vehículos blindados y apoyo de ataques."
+  },
+  "units": {
+    "overviewTitle": "Unidades de Ebbtide",
+    "overviewDescription": "Guías de unidades de Ebbtide sobre infantería militar, vehículos, helicópteros de transporte, helicópteros de ataque y despliegue de armas combinadas."
+  },
+  "base": {
+    "overviewTitle": "Base de Ebbtide",
+    "overviewDescription": "Guías de bases de Ebbtide sobre bases de operaciones avanzadas, suministros de BOA, distribuciones defensivas y destrucción de edificios."
+  },
+  "maps": {
+    "overviewTitle": "Mapas de Ebbtide",
+    "overviewDescription": "Guías de mapas de Ebbtide sobre el mapa operativo de Los Ángeles, la distribución de los campos de batalla y las rutas tácticas."
+  },
+  "community": {
+    "overviewTitle": "Comunidad de Ebbtide",
+    "overviewDescription": "Cobertura de la comunidad de Ebbtide, incluidas las conversaciones de Reddit y Steam, las noticias de lanzamiento y los tráilers oficiales de anuncio."
+  },
+  "shared": {
+    "wikiNavigation": "Navegación de la wiki",
+    "activeCodes": "Códigos activos",
+    "updated": "Actualizado",
+    "viewAllCodes": "Ver todos los códigos",
+    "playOnRoblox": "Jugar en Roblox",
+    "inThisSection": "En esta sección",
+    "tableOfContents": "Índice",
+    "nextSteps": "Siguientes pasos",
+    "needHelp": "¿Necesitas ayuda?",
+    "relatedReading": "Lecturas relacionadas",
+    "relatedGuides": "Guías relacionadas",
+    "readMore": "Leer más",
+    "officialMedia": "Contenido oficial",
+    "home": "Inicio",
+    "noGuidesAvailable": "Todavía no hay guías disponibles. ¡Vuelve pronto!"
+  },
+  "footer": {
+    "aboutTitle": "Ebbtide Wiki",
+    "about": "Ebbtide Wiki es un centro de guías independiente creado por fans que cubre unidades militares, estrategia de supervivencia, construcción de bases, sistemas y conocimientos esenciales del juego para comandantes nuevos y veteranos.",
+    "quickLinks": "Enlaces rápidos",
+    "guides": "Guías",
+    "legal": "Legal",
+    "copyright": "2026 Ebbtide Wiki. No está afiliada a ProjectAlive ni a Valve Corporation.",
+    "description": "RTS de supervivencia zombi para un jugador ambientado en Los Ángeles. Comanda portaaviones, unidades y supervivientes.",
+    "playGame": "Ver Ebbtide en Steam",
+    "steamCommunity": "Centro de la comunidad de Steam",
+    "officialDiscord": "Discord de Ebbtide",
+    "officialYoutube": "YouTube de Ebbtide",
+    "vvBuilder": "ProjectAlive en X",
+    "beginnerGuide": "Guía para principiantes",
+    "mechanicsGuides": "Guías de mecánicas",
+    "combatGuides": "Guías de combate",
+    "unitsGuides": "Guías de unidades",
+    "baseGuides": "Guías de bases",
+    "privacyPolicy": "Política de privacidad",
+    "termsOfService": "Términos de servicio"
+  }
+}

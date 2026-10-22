@@ -1,1 +1,519 @@
-{}
+{
+  "site": {
+    "name": "Ebbtide Wiki",
+    "shortName": "Ebbtide",
+    "tagline": "ゾンビサバイバル戦略ガイド、ユニット＆ゲームプレイ",
+    "description": "Ebbtideのガイド、ゲームメカニクス、軍事ユニット、生存戦略、拠点建設のヒント、動作環境、最新のリリース情報を紹介します。",
+    "legalNotice": "独立したファンウィキです。ProjectAliveおよびValve Corporationとは提携していません。"
+  },
+  "nav": {
+    "home": "ホーム",
+    "menu": "メニュー",
+    "toggleTheme": "テーマを切り替える",
+    "guide": "ガイド",
+    "mechanics": "メカニクス",
+    "combat": "戦闘",
+    "units": "ユニット",
+    "base": "拠点",
+    "maps": "マップ",
+    "community": "コミュニティ"
+  },
+  "home": {
+    "meta": {
+      "title": "Ebbtide Wiki：初心者ガイド、ユニット、拠点建設、リリース情報",
+      "description": "Ebbtideの分隊戦闘、軍事ユニット、拠点建設、大群防衛、ロサンゼルス戦役、リリース情報を扱うガイドを紹介します。"
+    },
+    "hero": {
+      "eyebrow": "ゾンビサバイバル・リアルタイムストラテジー",
+      "title": "Ebbtide Wiki",
+      "description": "ゾンビがはびこるロサンゼルスへ、人類最後の空母任務部隊を率いて進みましょう。軍事ユニットを指揮し、生存者を救出し、防衛施設を築き、物資を管理しながら、シームレスな作戦マップと3D戦場を戦い抜きます。",
+      "stats": [
+        "近日配信",
+        "PC & Mac",
+        "11言語",
+        "シングルプレイ"
+      ],
+      "primaryCta": "初心者ガイド",
+      "secondaryCta": "Steamで見る",
+      "tertiaryCta": "Discordに参加",
+      "videoLabel": "公式メディア"
+    },
+    "updates": {
+      "title": "最新アップデート",
+      "browse": "すべてのガイドを見る",
+      "viewAll": "すべて表示"
+    },
+    "start": {
+      "eyebrow": "ここから始める",
+      "title": "Ebbtideの旅",
+      "cards": [
+        {
+          "number": "1",
+          "title": "初心者ガイド",
+          "description": "2つの視点を切り替える指揮ループを学び、最初の足場を確保して、ロサンゼルスでの序盤の大群を生き延びましょう。"
+        },
+        {
+          "number": "2",
+          "title": "ユニットと車両",
+          "description": "歩兵、M2エイブラムス戦車、AH-6Mリトルバードヘリコプター、砲兵支援がどのように連携するかを理解しましょう。"
+        },
+        {
+          "number": "3",
+          "title": "拠点建設",
+          "description": "最初の大規模な波が来る前に、階層化した防衛線、前進作戦基地、屋上の射撃位置、退却線を整備します。"
+        },
+        {
+          "number": "4",
+          "title": "戦闘の基本",
+          "description": "大群の圧力を読み、接近経路に合わせて砲撃を調整し、防衛線が崩れかけたときのために機動予備戦力を用意します。"
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "人気ページ",
+      "title": "いま注目の記事",
+      "quickLinks": [
+        "初心者ガイド",
+        "ユニットと車両",
+        "拠点防衛",
+        "戦闘の基本"
+      ],
+      "cards": [
+        {
+          "badge": "初心者",
+          "title": "初心者ガイド",
+          "description": "生存者と指揮官のループ、序盤の優先事項、よくある失敗を学びましょう。",
+          "href": "/guide/ebbtide-beginner-guide"
+        },
+        {
+          "badge": "基本",
+          "title": "ゲームプレイガイド",
+          "description": "分隊指揮、拠点建設、装甲、航空支援、砲兵がどのようにかみ合うかを確認できます。",
+          "href": "/guide/ebbtide-gameplay-guide"
+        },
+        {
+          "badge": "戦力",
+          "title": "ユニットと車両",
+          "description": "歩兵、エイブラムス戦車、リトルバードヘリコプター、火力支援の確認済みの役割を確認しましょう。",
+          "href": "/units/ebbtide-military-units"
+        },
+        {
+          "badge": "防衛",
+          "title": "拠点建設",
+          "description": "防衛の深さ、前進作戦基地、屋上、退却経路を計画します。",
+          "href": "/mechanics/ebbtide-base-building"
+        },
+        {
+          "badge": "戦闘",
+          "title": "戦闘戦略",
+          "description": "生産、戦力構成、避難経路、火力支援を調整します。",
+          "href": "/combat/ebbtide-combat-guide"
+        },
+        {
+          "badge": "ニュース",
+          "title": "発表トレーラー",
+          "description": "公開映像、確認済みのゲーム情報、ProjectAliveの戦役構想を分析します。",
+          "href": "/community/ebbtide-announcement-trailer"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Ebbtideとは？",
+      "paragraphs": [
+        "EbbtideはProjectAliveによるシングルプレイのゾンビサバイバル・リアルタイムストラテジーゲームです。崩壊しつつあるロサンゼルスを舞台に、最後の空母任務部隊を指揮し、生存者を救出しながら巨大なゾンビの大群に対して陣地を守ります。",
+        "地上で生存者として直接戦い、その後は上空からの指揮視点に切り替えて、歩兵分隊、M2エイブラムス戦車、AH-6Mリトルバードヘリコプター、砲兵を指示します。前進作戦基地、屋上防衛、避難経路、階層化した退却位置により、各作戦は位置取りと補給をめぐる競争になります。"
+      ],
+      "stats": [
+        {
+          "label": "開発",
+          "value": "ProjectAlive"
+        },
+        {
+          "label": "販売",
+          "value": "ProjectAlive"
+        },
+        {
+          "label": "対応機種",
+          "value": "PC & Mac"
+        },
+        {
+          "label": "リリース",
+          "value": "近日配信"
+        },
+        {
+          "label": "ジャンル",
+          "value": "ゾンビサバイバルRTS"
+        },
+        {
+          "label": "モード",
+          "value": "シングルプレイ"
+        },
+        {
+          "label": "言語",
+          "value": "11"
+        },
+        {
+          "label": "舞台",
+          "value": "ロサンゼルス"
+        }
+      ],
+      "cta": "すべてのガイドを見る"
+    },
+    "explore": {
+      "title": "Ebbtide Wikiを探索",
+      "description": "最初の作戦を計画し、分隊戦闘、軍事ユニット、拠点防衛、大群の圧力、リリース情報のガイドで戦役を追いましょう。",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Ebbtide初心者ガイド",
+          "description": "基本ループを学びましょう。空母任務部隊を指揮し、生存者を救出し、軍事ユニットを管理し、ロサンゼルスを大規模なゾンビの大群から守ります。",
+          "href": "/guide/ebbtide-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "2つの視点のループを学びます。生存者として戦い、その後は指揮視点に戻って分隊を動かします。"
+            },
+            {
+              "label": "2",
+              "detail": "拡張する前に、生産拠点と小規模で柔軟な分隊を確保します。"
+            },
+            {
+              "label": "3",
+              "detail": "拡張余地と明確な退却経路を備えた前進作戦基地を配置します。"
+            },
+            {
+              "label": "4",
+              "detail": "防衛を複数層に築き、屋上の射撃位置を少なくとも1か所確保します。"
+            },
+            {
+              "label": "5",
+              "detail": "大群を継続的な圧力として捉え、損傷したユニットを交代させ、修理用資源を蓄えます。"
+            },
+            {
+              "label": "6",
+              "detail": "失敗した配置を繰り返さず、交戦ごとに建設順序を見直します。"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Ebbtideのゲームプレイと特徴",
+          "description": "Ebbtideが生存者の直接戦闘、リアルタイムの分隊指揮、拠点建設、装甲車両、航空支援、砲兵をどのように組み合わせているかを確認します。",
+          "href": "/guide/ebbtide-gameplay-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "2つの視点",
+              "detail": "生存者の直接操作と上空からの指揮視点を切り替え、戦況を読み、形作ります。"
+            },
+            {
+              "label": "分隊",
+              "detail": "歩兵グループに装甲の援護、陣地の維持、露出した側面の防御を命じます。"
+            },
+            {
+              "label": "前進基地",
+              "detail": "前進作戦基地は増援経路を短縮し、争奪地域への圧力を広げます。"
+            },
+            {
+              "label": "装甲",
+              "detail": "M2エイブラムス戦車は通路を支え、歩兵が車体を援護すると大群の圧力を受け止めます。"
+            },
+            {
+              "label": "航空",
+              "detail": "AH-6Mリトルバードヘリコプターは迅速な対応、回収、短時間の精密任務を担います。"
+            },
+            {
+              "label": "砲兵",
+              "detail": "要請した攻撃で、密集した集団が防衛線に到達する前に崩します。"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Ebbtideのユニットと軍用車両",
+          "description": "砲兵、M2エイブラムス戦車、AH-6Mリトルバードヘリコプター、前進作戦基地の確認済みの戦場での役割を比較します。",
+          "href": "/units/ebbtide-military-units",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "砲兵：接触前に密集した大群を崩し、密度が高まる瞬間に射撃します。"
+            },
+            {
+              "label": "A",
+              "detail": "M2エイブラムス：防衛路を支え、圧力を受け止め、損傷した装甲を修理のために交代させます。"
+            },
+            {
+              "label": "B",
+              "detail": "AH-6Mリトルバード：素早く攻撃し、早めに離脱し、地上の観測要員と連携します。"
+            },
+            {
+              "label": "C",
+              "detail": "前進基地：第一線が持ちこたえたら、到達範囲を広げて増援距離を短縮します。"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Ebbtide戦闘戦略ガイド",
+          "description": "増大するゾンビの圧力から防衛しながら、生産、戦力構成、避難経路、火力支援を調整します。",
+          "href": "/combat/ebbtide-combat-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "広く建設する前に、生産拠点と小規模で柔軟な分隊を確保します。"
+            },
+            {
+              "label": "2",
+              "detail": "前進作戦基地と偵察済みの接近経路でマップ支配を広げます。"
+            },
+            {
+              "label": "3",
+              "detail": "最初の大規模な波の前に、階層化した防衛と修理能力を整えます。"
+            },
+            {
+              "label": "4",
+              "detail": "機動予備戦力を用意し、接近中の密度が高まる地点に砲撃を加えます。"
+            },
+            {
+              "label": "5",
+              "detail": "避難経路を守り、高所の射撃位置を少なくとも1か所維持します。"
+            },
+            {
+              "label": "6",
+              "detail": "崩壊する通路にユニットを送り込むのではなく、退却して態勢を立て直し、反撃します。"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Ebbtideの拠点建設と防衛",
+          "description": "継続的な攻撃に備え、防衛の深さ、前進作戦基地、屋上の射撃位置、車両待機区域、退却線を計画します。",
+          "href": "/mechanics/ebbtide-base-building",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "外周",
+              "detail": "重なり合う防衛射界で、開けた地形を殺傷区域に変えます。"
+            },
+            {
+              "label": "前進基地",
+              "detail": "増援が到着でき、ユニットが退却できる場所に前進作戦基地を置きます。"
+            },
+            {
+              "label": "屋上",
+              "detail": "高所の射撃位置を活用して実効戦力を倍増させ、道路からの接近を制圧します。"
+            },
+            {
+              "label": "待機区域",
+              "detail": "前線近くの車両待機区域で装甲を修理し、即応状態に保ちます。"
+            },
+            {
+              "label": "退却",
+              "detail": "第二線を築き、1か所の突破が全体の崩壊につながらないようにします。"
+            },
+            {
+              "label": "階層",
+              "detail": "一点で崩れる単一の壁ではなく、奥行きを持たせて建設します。"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Ebbtideの世界戦役と進行",
+          "description": "生存者を救出し、任務部隊を維持しながら、ロサンゼルスの橋頭堡からより広範な作戦へ戦役を進めます。",
+          "href": "/mechanics/ebbtide-rts-gameplay",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "ロサンゼルスの橋頭堡を安定させ、生産拠点を築きます。"
+            },
+            {
+              "label": "2",
+              "detail": "避難経路を開いたまま、民間人を救出して護衛します。"
+            },
+            {
+              "label": "3",
+              "detail": "各前進を支えるため、補給路と前進作戦基地を確保します。"
+            },
+            {
+              "label": "4",
+              "detail": "都市作戦から他地域への支援へと拡大します。"
+            },
+            {
+              "label": "5",
+              "detail": "同じ統合戦力の規律を、より大規模な戦役作戦にも持ち込みます。"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Ebbtideのリリース日と対応機種",
+          "description": "確認済みの配信状況、対応OS、ゲームモード、言語対応、公式ストアの情報を追います。",
+          "href": "/community/ebbtide-announcement-trailer",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "リリース",
+              "detail": "近日配信。発売日と価格はまだ発表されていません。"
+            },
+            {
+              "label": "対応機種",
+              "detail": "WindowsとmacOS。"
+            },
+            {
+              "label": "モード",
+              "detail": "シングルプレイ、ファミリー共有対応。"
+            },
+            {
+              "label": "言語",
+              "detail": "英語、ドイツ語、スペイン語、日本語を含む11のインターフェース・字幕言語。"
+            },
+            {
+              "label": "開発",
+              "detail": "ProjectAliveによる自主販売。"
+            },
+            {
+              "label": "入力",
+              "detail": "Xboxコントローラーに対応し、クイックタイムイベントなしでプレイできます。"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Ebbtideのニュースとアップデート",
+          "description": "ProjectAliveとEbbtideコミュニティによる公式発表、開発アップデート、ゲームプレイ紹介、トレーラーを追います。",
+          "href": "/community/ebbtide-announcement-trailer",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "トレーラー",
+              "detail": "発表トレーラーでは、都市規模の作戦マップからロード画面なしで市街戦へ移行する様子が示されています。"
+            },
+            {
+              "label": "Steam",
+              "detail": "SteamページではProjectAliveが開発元および販売元として記載され、配信状況は近日配信となっています。"
+            },
+            {
+              "label": "Discord",
+              "detail": "公式Ebbtide Discordは、アップデートや開発議論のコミュニティ拠点です。"
+            },
+            {
+              "label": "YouTube",
+              "detail": "公式Ebbtide Gameチャンネルではトレーラーやゲームプレイ紹介を公開しています。"
+            },
+            {
+              "label": "X",
+              "detail": "@ProjectAliveDevをフォローして、開発チームの発表を確認できます。"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "よくある質問",
+      "description": "Ebbtide、配信状況、対応機種、戦闘ループ、ユニット、初心者の優先事項についての簡潔な回答です。",
+      "items": [
+        {
+          "question": "Ebbtideとは何ですか？",
+          "answer": "EbbtideはProjectAliveによるシングルプレイのゾンビサバイバル・リアルタイムストラテジーゲームです。崩壊しつつあるロサンゼルスを舞台に、最後の空母任務部隊を指揮して生存者を救出し、巨大なゾンビの大群から身を守ります。"
+        },
+        {
+          "question": "Ebbtideはいつ配信されますか？",
+          "answer": "EbbtideはSteamで「近日配信」として掲載されています。ProjectAliveは発売日も価格もまだ発表していません。"
+        },
+        {
+          "question": "Ebbtideはどの機種に対応しますか？",
+          "answer": "EbbtideはWindowsとmacOS向けに掲載されています。Steamページではシングルプレイ対応とファミリー共有も確認できます。"
+        },
+        {
+          "question": "Ebbtideの基本的なゲームプレイループは？",
+          "answer": "地上で生存者として戦い、上空からの指揮視点に切り替えて分隊と火力支援を指示し、大群の攻撃の合間に前進作戦基地を建設します。"
+        },
+        {
+          "question": "確認済みのEbbtideユニットは？",
+          "answer": "公式映像とストア情報では、歩兵、M2エイブラムス戦車、AH-6Mリトルバードヘリコプター、前進作戦基地、砲兵が確認されています。"
+        },
+        {
+          "question": "初心者はEbbtideをどう始めればよいですか？",
+          "answer": "Ebbtide初心者ガイドから始めましょう。生産を確保し、柔軟な分隊を1つ維持し、防衛を階層化し、最初の大群の前に広げすぎないようにします。"
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Ebbtideを極める準備はできましたか？",
+      "description": "ゾンビがはびこるロサンゼルスへ、最後の空母任務部隊を率いて進みましょう。コミュニティウィキでユニット、生存戦術、拠点建設、リリース情報をチェックできます。",
+      "primary": "初心者ガイドを読む",
+      "secondary": "Steamで見る"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Ebbtideガイド",
+    "overviewDescription": "操作、分隊戦闘、拠点建設、生存、ロサンゼルス戦役の実践的なヒントを扱うEbbtideの初心者・ゲームプレイガイドです。"
+  },
+  "mechanics": {
+    "overviewTitle": "Ebbtideメカニクス",
+    "overviewDescription": "RTS指揮、大群防衛、拠点建設、資源管理、兵員輸送、ゾンビサバイバルシステムを扱うEbbtideメカニクスガイドです。"
+  },
+  "combat": {
+    "overviewTitle": "Ebbtide戦闘",
+    "overviewDescription": "歩兵戦術、武器と砲兵、ヘリコプター運用、装甲車両、攻撃支援を扱うEbbtide戦闘ガイドです。"
+  },
+  "units": {
+    "overviewTitle": "Ebbtideユニット",
+    "overviewDescription": "軍用歩兵、車両、輸送ヘリコプター、攻撃ヘリコプター、統合戦力の展開を扱うEbbtideユニットガイドです。"
+  },
+  "base": {
+    "overviewTitle": "Ebbtide拠点",
+    "overviewDescription": "前進作戦基地、前進基地の補給、防衛配置、建物の破壊を扱うEbbtide拠点ガイドです。"
+  },
+  "maps": {
+    "overviewTitle": "Ebbtideマップ",
+    "overviewDescription": "ロサンゼルス作戦マップ、戦場配置、戦術ルートを扱うEbbtideマップガイドです。"
+  },
+  "community": {
+    "overviewTitle": "Ebbtideコミュニティ",
+    "overviewDescription": "RedditやSteamでの議論、リリースニュース、公式発表トレーラーを含むEbbtideコミュニティ情報です。"
+  },
+  "shared": {
+    "wikiNavigation": "ウィキナビゲーション",
+    "activeCodes": "有効なコード",
+    "updated": "更新日",
+    "viewAllCodes": "すべてのコードを見る",
+    "playOnRoblox": "Robloxでプレイ",
+    "inThisSection": "このセクション",
+    "tableOfContents": "目次",
+    "nextSteps": "次のステップ",
+    "needHelp": "助けが必要ですか？",
+    "relatedReading": "関連記事",
+    "relatedGuides": "関連ガイド",
+    "readMore": "続きを読む",
+    "officialMedia": "公式メディア",
+    "home": "ホーム",
+    "noGuidesAvailable": "利用できるガイドはまだありません。後でもう一度確認してください。"
+  },
+  "footer": {
+    "aboutTitle": "Ebbtide Wiki",
+    "about": "Ebbtide Wikiは、新米・ベテランの指揮官向けに、軍事ユニット、生存戦略、拠点建設、システム、必須のゲーム知識を扱う独立したファン制作のガイドハブです。",
+    "quickLinks": "クイックリンク",
+    "guides": "ガイド",
+    "legal": "法的情報",
+    "copyright": "2026 Ebbtide Wiki。ProjectAliveおよびValve Corporationとは提携していません。",
+    "description": "ロサンゼルスを舞台にしたシングルプレイのゾンビサバイバルRTS。空母、ユニット、生存者を指揮します。",
+    "playGame": "SteamでEbbtideを見る",
+    "steamCommunity": "Steamコミュニティハブ",
+    "officialDiscord": "Ebbtide Discord",
+    "officialYoutube": "Ebbtide YouTube",
+    "vvBuilder": "XのProjectAlive",
+    "beginnerGuide": "初心者ガイド",
+    "mechanicsGuides": "メカニクスガイド",
+    "combatGuides": "戦闘ガイド",
+    "unitsGuides": "ユニットガイド",
+    "baseGuides": "拠点ガイド",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約"
+  }
+}
